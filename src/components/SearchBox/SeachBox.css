@@ -1,0 +1,53 @@
+.search-box {
+    background-color: #0f1741;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .search-box h2 {
+    color: white;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+  }
+  
+  .search-container {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .search-input {
+    flex: 1;
+    padding: 1rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    min-width: 300px;
+  }
+  
+  .search-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .search-btn {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .for-sale {
+    background-color: #00ffb0;
+    color: #0f1741;
+  }
+  
+  .to-rent {
+    background-color: #00ffb0;
+    color: #0f1741;
+  }

@@ -1,0 +1,36 @@
+.sign-in-prompt {
+    background-color: #f0f7f4;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+    border-radius: 8px;
+  }
+  
+  .prompt-content {
+    text-align: center;
+  }
+  
+  .prompt-content h2 {
+    color: #262637;
+    margin-bottom: 1rem;
+  }
+  
+  .prompt-content p {
+    color: #666;
+    margin-bottom: 1.5rem;
+  }
+  
+  .sign-in-prompt-btn {
+    padding: 0.75rem 1.5rem;
+    background-color: white;
+    border: 2px solid #262637;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .sign-in-prompt-btn:hover {
+    background-color: #262637;
+    color: white;
+  }

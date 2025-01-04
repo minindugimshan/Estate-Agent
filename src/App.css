@@ -1,0 +1,50 @@
+.app {
+  min-height: 100vh;
+  background-color: #e3c4c4;
+}
+
+.search-form {
+  background: white;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.property-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.property-card .favorite-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Media Queries */
+@media (max-width: 960px) {
+  .search-form {
+    padding: 16px;
+  }
+  
+  .property-card {
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .app {
+    padding: 16px;
+  }
+  
+  .search-form {
+    padding: 12px;
+  }
+  
+  .property-card {
+    margin-bottom: 12px;
+  }
+}
