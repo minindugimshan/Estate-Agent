@@ -1,4 +1,5 @@
-import './SearchBox.css';
+import "./SeachBox.css";
+
 
 function SearchBox() {
   return (

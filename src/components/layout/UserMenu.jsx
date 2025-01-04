@@ -45,7 +45,7 @@ function SignUpForm() {
         email: formData.email,
       })
       navigate('/')
-    } catch (error) {
+    } catch (err) {
       setError('Failed to create account')
     }
   }

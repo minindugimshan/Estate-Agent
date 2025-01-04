@@ -1,6 +1,6 @@
 
 import SearchBox from '../SearchBox/SearchBox';
-import './Hero.css'
+import './Hero.css';
 
 function Hero() {
   return (

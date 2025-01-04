@@ -117,6 +117,7 @@ import { useFavorites } from '../../context/FavoritesContext';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import PropTypes from 'prop-types';
+import "./property.css";
 
 function PropertyCard({ property }) {
   const { favorites, addFavorite, removeFavorite } = useFavorites();

@@ -1,0 +1,39 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #262637;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .nav-links a {
+    color: #262637;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .sign-in-btn {
+    padding: 0.5rem 1rem;
+    border: 2px solid #262637;
+    border-radius: 4px;
+    background: none;
+    color: #262637;
+    font-weight: bold;
+    cursor: pointer;
+  }

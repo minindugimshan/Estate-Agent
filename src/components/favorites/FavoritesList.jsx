@@ -7,10 +7,10 @@ import {
   IconButton,
   Button,
   Box,
-} from '@mui/material'
-import DeleteIcon from '@mui/icons-material/Delete'
-import { useFavorites } from '../../context/FavoritesContext'
-import { Link } from 'react-router-dom'
+} from '@mui/material';
+import DeleteIcon from '@mui/icons-material/Delete';
+import { useFavorites } from '../../context/FavoritesContext';
+import { Link } from 'react-router-dom';
 
 function FavoritesList() {
   const { favorites, removeFavorite, clearFavorites } = useFavorites()
