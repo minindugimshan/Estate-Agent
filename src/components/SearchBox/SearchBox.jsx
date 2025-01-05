@@ -8,7 +8,7 @@ function SearchBox() {
       <div className="search-container">
         <input
           type="text"
-          placeholder="e.g. Bath, NW3, or Leeds station"
+          placeholder="e.g. Bath, BR5, or Leeds station"
           className="search-input"
         />
         <div className="search-buttons">

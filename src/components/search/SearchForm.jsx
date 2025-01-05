@@ -1,5 +1,6 @@
 
 
+
 import { useState } from 'react';
 import { TextField, Grid, Button } from '@mui/material';
 import PropTypes from 'prop-types';
@@ -27,6 +28,13 @@ function SearchForm({ onSearch }) {
     });
   };
 
+  const handleNumberChange = (field) => (event) => {
+    setCriteria({
+      ...criteria,
+      [field]: event.target.value,
+    });
+  };
+
   const handleDateChange = (field) => (date) => {
     setCriteria({
       ...criteria,
@@ -46,14 +54,14 @@ function SearchForm({ onSearch }) {
         <PriceRangeInputs
           minPrice={criteria.minPrice}
           maxPrice={criteria.maxPrice}
-          onMinPriceChange={handleChange('minPrice')}
-          onMaxPriceChange={handleChange('maxPrice')}
+          onMinPriceChange={handleNumberChange('minPrice')}
+          onMaxPriceChange={handleNumberChange('maxPrice')}
         />
         <BedroomRangeInputs
           minBedrooms={criteria.minBedrooms}
           maxBedrooms={criteria.maxBedrooms}
-          onMinBedroomsChange={handleChange('minBedrooms')}
-          onMaxBedroomsChange={handleChange('maxBedrooms')}
+          onMinBedroomsChange={handleNumberChange('minBedrooms')}
+          onMaxBedroomsChange={handleNumberChange('maxBedrooms')}
         />
         <DateRangeInputs
           dateAddedAfter={criteria.dateAddedAfter}
@@ -86,9 +94,8 @@ function SearchForm({ onSearch }) {
   );
 }
 
-// Prop Types Validation
 SearchForm.propTypes = {
-  onSearch: PropTypes.func.isRequired, // Ensures onSearch is a required function
+  onSearch: PropTypes.func.isRequired,
 };
 
 export default SearchForm;

@@ -1,40 +1,6 @@
-// // Mock property data
-// export const properties = [
-//     {
-//       id: "prop1",
-//       type: "house",
-//       bedrooms: 3,
-//       price: 750000,
-//       tenure: "Freehold",
-//       shortDescription: "Attractive three bedroom semi-detached family home",
-//       longDescription: "Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland...",
-//       location: "Petts Wood Road, Petts Wood, Orpington BR5",
-//       postcode: "BR5",
-//       dateAdded: "2022-10-12",
-//       images: ["https://img.freepik.com/premium-photo/suburban-house-architecture-modern-cottage-house-architecture-concept-property-neighborhood-real-estate-property-insurance-property-architecture-housing-rent-house_474717-149085.jpg?w=900"],
-//       floorPlan: ["https://img.freepik.com/free-vector/digital-house-design-with-blueprint_23-2148309839.jpg?t=st=1736025939~exp=1736029539~hmac=d57b7bf3cf612432f78f2510b6d1eb401a538c0b53d7e2140b1ccfeb4604d871&w=740"],
-//       coordinates: { lat: 51.3837, lng: 0.0721 }
-//     },
-//     {
-//       id: "prop2",
-//       type: "flat",
-//       bedrooms: 2,
-//       price: 399995,
-//       tenure: "Freehold",
-//       shortDescription: "Modern two double bedroom garden flat",
-//       longDescription: "Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat...",
-//       location: "Crofton Road Orpington BR6",
-//       postcode: "BR6",
-//       dateAdded: "2022-09-14",
-//       images: ["https://img.freepik.com/free-photo/3d-rendering-loft-luxury-living-room-with-shelf-near-dining-table_105762-2053.jpg?t=st=1736025746~exp=1736029346~hmac=05a227a685574ca2d1955c4fea45be0ff84818f783766cf85a98c8549f08465f&w=900"],
-//       floorPlan: ["https://img.freepik.com/free-vector/modern-project-blueprint-house_23-2148317370.jpg?t=st=1736025981~exp=1736029581~hmac=a8d5b093423c50efc2d2711b8920a83b818aa93835920bbf907b42f8c066aae3&w=740"],
-//       coordinates: { lat: 51.3721, lng: 0.0989 }
-//     }
-//   ]
 
-
-// Mock property data
 export const properties = [
+
   {
     id: "prop1",
     type: "house",
@@ -42,21 +8,16 @@ export const properties = [
     price: 750000,
     tenure: "Freehold",
     shortDescription: "Attractive three bedroom semi-detached family home",
-    longDescription: "Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
-    location: "Petts Wood Road, Petts Wood, Orpington BR5",
+    longDescription: "Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory...",
     postcode: "BR5",
     dateAdded: "2022-10-12",
     images: [
       "https://img.freepik.com/premium-photo/suburban-house-architecture-modern-cottage-house-architecture-concept-property-neighborhood-real-estate-property-insurance-property-architecture-housing-rent-house_474717-149085.jpg?w=900",
-      "/images/prop1/living.jpg",
-      "/images/prop1/kitchen.jpg",
-      "/images/prop1/bedroom1.jpg",
-      "/images/prop1/garden.jpg",
-      "/images/prop1/bathroom.jpg"
+   
     ],
-    floorPlan: "../assets/images/prop1pic1small.jpg",
-    coordinates: { lat: 51.3837, lng: 0.0721 }
+
   },
+
   {
     id: "prop2",
     type: "flat",
@@ -70,14 +31,9 @@ export const properties = [
     dateAdded: "2022-09-14",
     images: [
       "https://img.freepik.com/free-photo/3d-rendering-loft-luxury-living-room-with-shelf-near-dining-table_105762-2053.jpg?t=st=1736025746~exp=1736029346~hmac=05a227a685574ca2d1955c4fea45be0ff84818f783766cf85a98c8549f08465f&w=900",
-      "/images/prop2/living.jpg",
-      "/images/prop2/kitchen.jpg",
-      "/images/prop2/bedroom1.jpg",
-      "/images/prop2/garden.jpg",
-      "/images/prop2/bathroom.jpg"
+ 
     ],
-    floorPlan: "/images/prop2/floorplan.jpg",
-    coordinates: { lat: 51.3721, lng: 0.0989 }
+   
   },
   {
     id: "prop3",
@@ -92,14 +48,9 @@ export const properties = [
     dateAdded: "2024-12-01",
     images: [
       "https://img.freepik.com/premium-photo/abramtsevo-russia-moscow-region_146605-23.jpg?w=826",
-      "/images/prop3pic2.jpg",
-      "/images/prop3pic3.jpg",
-      "/images/prop3pic4.jpg",
-      "/images/prop3pic5.jpg",
-      "/images/prop3pic6.jpg"
+    
     ],
-    floorPlan: "/images/prop3plan.jpg",
-    coordinates: { lat: 51.4184, lng: 0.0485 }
+   
   },
   {
     id: "prop4",
@@ -114,14 +65,9 @@ export const properties = [
     dateAdded: "2024-11-28",
     images: [
       "https://img.freepik.com/free-photo/cozy-living-room-interior-with-panoramic-window_1262-12322.jpg?t=st=1736049573~exp=1736053173~hmac=342ecea9dbddae9f41c71c907073f8bdf56dd636a41e4af328a16f01672b1cdf&w=826",
-      "/images/prop4pic2.jpg",
-      "/images/prop4pic3.jpg",
-      "/images/prop4pic4.jpg",
-      "/images/prop4pic5.jpg",
-      "/images/prop4pic6.jpg"
+     
     ],
-    floorPlan: "/images/prop4plan.jpg",
-    coordinates: { lat: 51.4826, lng: 0.0077 }
+    
   },
   {
     id: "prop5",
@@ -136,14 +82,9 @@ export const properties = [
     dateAdded: "2024-12-05",
     images: [
       "https://img.freepik.com/premium-photo/buildings-town_1048944-19155124.jpg?w=826",
-      "/images/prop5pic2.jpg",
-      "/images/prop5pic3.jpg",
-      "/images/prop5pic4.jpg",
-      "/images/prop5pic5.jpg",
-      "/images/prop5pic6.jpg"
+    
     ],
-    floorPlan: "/images/prop5plan.jpg",
-    coordinates: { lat: 51.4659, lng: 0.0111 }
+    
   },
   {
     id: "prop6",
@@ -158,15 +99,11 @@ export const properties = [
     dateAdded: "2024-11-15",
     images: [
       "https://img.freepik.com/premium-photo/3d-rendering-modern-dining-room-living-room-with-luxury-decor_105762-1370.jpg?w=826",
-      "/images/prop6pic2.jpg",
-      "/images/prop6pic3.jpg",
-      "/images/prop6pic4.jpg",
-      "/images/prop6pic5.jpg",
-      "/images/prop6pic6.jpg"
+     
     ],
-    floorPlan: "/images/prop6plan.jpg",
-    coordinates: { lat: 51.4185, lng: 0.0798 }
+ 
   },
+
   {
     id: "prop7",
     type: "house",
@@ -180,13 +117,8 @@ export const properties = [
     dateAdded: "2024-12-10",
     images: [
       "https://img.freepik.com/premium-photo/average-residential-house-with-green-lawn-cloudy-day-canada_769578-2432.jpg?w=826",
-      "/images/prop7pic2.jpg",
-      "/images/prop7pic3.jpg",
-      "/images/prop7pic4.jpg",
-      "/images/prop7pic5.jpg",
-      "/images/prop7pic6.jpg"
+    
     ],
-    floorPlan: "/images/prop7plan.jpg",
-    coordinates: { lat: 51.4376, lng: 0.054 }
+ 
   }
 ];

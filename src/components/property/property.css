@@ -1,24 +1,48 @@
+
 .property-card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    overflow: hidden;
-  }
-  
-  .property-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  }
-  
-  .property-card .favorite-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background-color: white;
-    border-radius: 50%;
-  }
-  
-  .property-card:hover .favorite-button {
-    color: red;
-  }
-  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative; /* Ensure absolute positioning for the favorite button */
+}
+
+/* Hover effects for the property card */
+.property-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Favorite button inside the card */
+.property-card .favorite-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 8px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover effect for the favorite button */
+.property-card:hover .favorite-button {
+  color: red;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Optional: You can add more styles for the card content and media as well */
+.property-card .MuiCardMedia-root {
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.property-card .MuiCardContent-root {
+  padding: 16px;
+}
+
+.property-card .MuiTypography-root {
+  transition: color 0.3s ease;
+}
+
+.property-card .MuiTypography-root:hover {
+  color: #2c3e50;
+}

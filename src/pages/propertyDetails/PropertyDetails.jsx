@@ -15,19 +15,20 @@ import ImageGallery from 'react-image-gallery';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-import { useFavorites } from '../context/FavoritesContext';
-import propertiesData from '../data/properties.json';
+import { useFavorites } from '../../context/FavoritesContext';
+import propertiesData from '../../data/properties.json';
 import 'react-image-gallery/styles/css/image-gallery.css';
+import './PropertyDetails.css';
 
 function PropertyDetails() {
-  const { id } = useParams()
-  const navigate = useNavigate()
-  const [activeTab, setActiveTab] = useState(0)
-  const { favorites, addFavorite, removeFavorite } = useFavorites()
-  
+  const { id } = useParams();
+  const navigate = useNavigate();
+  const [activeTab, setActiveTab] = useState(0);
+  const { favorites, addFavorite, removeFavorite } = useFavorites();
+
   // Find the property and handle not found case
-  const property = propertiesData.properties.find(p => p.id === id)
-  const isFavorite = favorites.some(fav => fav.id === property?.id)
+  const property = propertiesData.properties.find((p) => p.id === id);
+  const isFavorite = favorites.some((fav) => fav.id === property?.id);
 
   if (!property) {
     return (
@@ -45,27 +46,27 @@ function PropertyDetails() {
           </Button>
         </Box>
       </Container>
-    )
+    );
   }
 
-  const images = property.images.map(image => ({
+  const images = property.images.map((image) => ({
     original: image,
     thumbnail: image,
     originalAlt: property.title,
     thumbnailAlt: property.title,
-  }))
+  }));
 
   const handleTabChange = (event, newValue) => {
-    setActiveTab(newValue)
-  }
+    setActiveTab(newValue);
+  };
 
   const handleFavoriteClick = () => {
     if (isFavorite) {
-      removeFavorite(property.id)
+      removeFavorite(property.id);
     } else {
-      addFavorite(property)
+      addFavorite(property);
     }
-  }
+  };
 
   return (
     <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
@@ -79,14 +80,21 @@ function PropertyDetails() {
         </Button>
       </Box>
 
-      <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 3 }}>
+      <Box
+        sx={{
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          mb: 3,
+        }}
+      >
         <Typography variant="h4" component="h1">
           {property.title}
         </Typography>
-        <IconButton 
-          onClick={handleFavoriteClick} 
+        <IconButton
+          onClick={handleFavoriteClick}
           color="primary"
-          aria-label={isFavorite ? "Remove from favorites" : "Add to favorites"}
+          aria-label={isFavorite ? 'Remove from favorites' : 'Add to favorites'}
         >
           {isFavorite ? <FavoriteIcon /> : <FavoriteBorderIcon />}
         </IconButton>
@@ -110,13 +118,14 @@ function PropertyDetails() {
         <Tabs value={activeTab} onChange={handleTabChange}>
           <Tab label="Description" />
           <Tab label="Floor Plan" />
+          <Tab label="Location" />
         </Tabs>
 
         <Box sx={{ mt: 2, p: 2 }}>
           {activeTab === 0 && (
             <>
               <Typography variant="body1" paragraph>
-                {property.longDescription}
+                {property.longDescription || 'No description available for this property.'}
               </Typography>
               <Box sx={{ mt: 2 }}>
                 <Typography variant="subtitle1" gutterBottom>
@@ -137,10 +146,29 @@ function PropertyDetails() {
               />
             </Box>
           )}
+          {activeTab === 2 && (
+            <Box sx={{ textAlign: 'center' }}>
+              {property.iframe ? (
+                <iframe
+                  src={property.iframe}
+                  title="Property Location"
+                  width="100%"
+                  height="400px"
+                  style={{ border: 0 }}
+                  allowFullScreen=""
+                  loading="lazy"
+                ></iframe>
+              ) : (
+                <Typography variant="body2">
+                  No location map available for this property.
+                </Typography>
+              )}
+            </Box>
+          )}
         </Box>
       </Box>
     </Container>
-  )
+  );
 }
 
 export default PropertyDetails;
