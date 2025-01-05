@@ -1,5 +1,5 @@
 
-import './'
+
 
 import {
   Paper,
@@ -67,7 +67,7 @@ function FavoritesList() {
                             to={`/property/${property.id}`}
                             style={{ textDecoration: 'none', color: 'inherit' }}
                           >
-                            £{property.price.toLocaleString()}
+                            ${property.price.toLocaleString()}
                           </Link>
                         }
                         secondary={property.shortDescription}

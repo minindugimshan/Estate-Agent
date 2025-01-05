@@ -25,19 +25,10 @@ function Navbar() {
             <Button color="inherit" component={Link} to="/">Buy</Button>
             <Button color="inherit" component={Link} to="/">Rent</Button>
             <Button color="inherit" component={Link} to="/">House Prices</Button>
-            {/* <Button color="inherit" component={Link} to="/find-agent">Find Agent</Button>
-            <Button color="inherit" component={Link} to="/commercial">Commercial</Button>
-            <Button color="inherit" component={Link} to="/inspire">Inspire</Button>
-            <Button color="inherit" component={Link} to="/overseas">Overseas</Button> */}
+
           </nav>
           
-          {/* <Button 
-            variant="outlined" 
-            color="primary"
-            sx={{ ml: 2 }}
-          >
-            Sign in
-          </Button> */}
+          
         </Toolbar>
       </Container>
     </AppBar>
