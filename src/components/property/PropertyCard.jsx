@@ -146,7 +146,7 @@ function PropertyCard({ property }) {
             {property.title}
           </Typography>
           <Typography variant="subtitle1" color="primary">
-            £{property.price.toLocaleString()}
+            ${property.price.toLocaleString()}
           </Typography>
           <Typography variant="body2" color="text.secondary">
             {property.shortDescription}

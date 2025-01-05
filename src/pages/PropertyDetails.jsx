@@ -103,7 +103,7 @@ function PropertyDetails() {
       </Paper>
 
       <Typography variant="h5" color="primary" gutterBottom>
-        £{property.price.toLocaleString()}
+        ${property.price.toLocaleString()}
       </Typography>
 
       <Box sx={{ mb: 3 }}>
