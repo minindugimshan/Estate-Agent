@@ -1,0 +1,195 @@
+{
+    "properties": [
+        {
+            "id": "prop1",
+            "type": "House",
+            "bedrooms": 3,
+            "price": 750000,
+            "tenure": "Freehold",
+            "postcode": "BR5",
+            "longDescription": "Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
+            "location": "Petts Wood Road, Petts Wood, Orpington BR5",
+
+            "picture":  "https://img.freepik.com/premium-photo/suburban-house-architecture-modern-cottage-house-architecture-concept-property-neighborhood-real-estate-property-insurance-property-architecture-housing-rent-house_474717-149085.jpg?w=900",
+            "images": [
+                "https://img.freepik.com/premium-photo/suburban-house-architecture-modern-cottage-house-architecture-concept-property-neighborhood-real-estate-property-insurance-property-architecture-housing-rent-house_474717-149085.jpg?w=900",
+                "https://img.freepik.com/free-photo/3d-rendering-loft-luxury-living-room-with-bookshelf_105762-2099.jpg?t=st=1736051115~exp=1736054715~hmac=f2e4fb87296da5d04536c21afafbf56159424c051dadda9cbfe2e34b6e466ecb&w=826",
+                "https://img.freepik.com/free-photo/bedroom-background-zoom-calls_52683-95239.jpg?t=st=1736050671~exp=1736054271~hmac=06c1b22f246181f54b6466acaea95139e343add4cf225f3081cb395f520a24a5&w=826",
+                "https://img.freepik.com/free-photo/creative-fengshui-practice-bedroom-arrangement_23-2149135754.jpg?t=st=1736051010~exp=1736054610~hmac=734c4680a81e6869f12c5e177b803373a83ec35f342ad922c3f57e6161a2b33e&w=826",
+                
+                "https://img.freepik.com/free-photo/modern-kitchen-interior-white-colors_181624-58451.jpg?t=st=1736102310~exp=1736105910~hmac=6f6f3224e159410bd85e98201e59de5dc7d512b5db47d2f2ed7afddcbc88a83d&w=900",
+                "https://img.freepik.com/free-photo/3d-rendering-modern-design-marble-tile-toilet-bathroom-with-shelf_105762-2074.jpg?t=st=1736102346~exp=1736105946~hmac=948ebee82990b1eef54431c3c4b986e805efe2fbe9d656e82d89d39c85024b1a&w=900"
+            ],
+            "floorPlan": "https://img.freepik.com/free-vector/draw-sketch-home-blueprint_23-2148307430.jpg?t=st=1736097553~exp=1736101153~hmac=c92eafbeeab23eccef2f636d60fcb4af680eb4332d59f18513a5735c6e5c6cd4&w=740",
+            "added": {
+                "month": "October",
+                "day": 12,
+                "year": 2022
+            },
+            "iframe":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2489.6745077248415!2d0.07950857612005113!3d51.390660019225535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ab82cc8f3cb1%3A0xc746da03b0c6c716!2sPetts%20Wood%20Rd%2C%20Petts%20Wood%2C%20Orpington%2C%20UK!5e0!3m2!1sen!2slk!4v1736100190951!5m2!1sen!2slk" 
+        },
+        {
+            "id": "prop2",
+            "type": "Flat",
+            "bedrooms": 2,
+            "price": 399995,
+            "tenure": "Freehold",
+            "postcode": "BR6",
+            "longDescription": "Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms. This apartment being only five years old, is still under a 10 year building guarantee...",
+            "location": "Crofton Road Orpington BR6",
+
+            "picture": "https://img.freepik.com/free-photo/3d-rendering-loft-luxury-living-room-with-shelf-near-dining-table_105762-2053.jpg?t=st=1736025746~exp=1736029346~hmac=05a227a685574ca2d1955c4fea45be0ff84818f783766cf85a98c8549f08465f&w=900",
+            "images": [
+                "https://img.freepik.com/free-photo/3d-rendering-loft-luxury-living-room-with-shelf-near-dining-table_105762-2053.jpg?t=st=1736025746~exp=1736029346~hmac=05a227a685574ca2d1955c4fea45be0ff84818f783766cf85a98c8549f08465f&w=900",
+                "https://img.freepik.com/premium-photo/minsk-belarus-september-2019-interior-modern-luxure-bedroom-studio-apartments-elite-hotel_97694-8253.jpg?w=826",
+                "https://img.freepik.com/free-photo/hotel-bedroom-with-double-bed-table-tv-set_1262-3034.jpg?t=st=1736050066~exp=1736053666~hmac=3ceb04619d56fb18edddaefe247e5ee839cdb4720c78d13bd31a5dc2d58c4ec7&w=826",
+                "https://img.freepik.com/free-photo/3d-rendering-white-minimal-kitchen-with-wood-decoration_105762-2219.jpg?t=st=1736102272~exp=1736105872~hmac=80979414cb1300456fba261a04409a70c534e62362134a7446dd4b8cbd3ab563&w=900",
+                "https://img.freepik.com/free-photo/3d-rendering-modern-design-marble-tile-toilet-bathroom_105762-2043.jpg?t=st=1736102390~exp=1736105990~hmac=30eb6bc530cd6c28a8f2519c5e30b7f1d4c8c3e1808fff4131ab8171c9bc5730&w=900",
+                "https://img.freepik.com/free-photo/3d-rendering-loft-luxury-living-room-with-shelf-near-dining-table_105762-2185.jpg?t=st=1736103305~exp=1736106905~hmac=b6a5c94e93b4d3a881acc69ea84abb293e9c990f759d7152cc72809b8921137f&w=900"
+            ],
+            "floorPlan": "https://img.freepik.com/free-vector/modern-design-blueprint-house_23-2148314813.jpg?t=st=1736098174~exp=1736101774~hmac=6cb4ba7a35945c2ffd2134155414cc46d5d30ac0a1afeb71bcae4d5e36bf8c77&w=740",
+            "added": {
+                "month": "September",
+                "day": 14,
+                "year": 2022
+            },
+             "iframe":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2490.613638327203!2d0.07196700000001262!3d51.373399099999986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ab6ac2bdc8d1%3A0xb0dde3c09939f924!2sCrofton%20Rd%2C%20Orpington%2C%20UK!5e0!3m2!1sen!2slk!4v1736101432458!5m2!1sen!2slk"
+        },
+        {
+            "id": "prop3",
+            "type": "House",
+            "bedrooms": 4,
+            "price": 925000,
+            "tenure": "Freehold",
+            "postcode": "BR7",
+            "longDescription": "Stunning four bedroom detached house in prestigious location. Features include a modern kitchen with integrated appliances, spacious living room with bay window, separate dining room, master bedroom with en-suite, three additional bedrooms, family bathroom, double garage, and landscaped garden.",
+            "location": "Chislehurst BR7",
+            "picture": "https://img.freepik.com/premium-photo/abramtsevo-russia-moscow-region_146605-23.jpg?w=826",
+            "images": [
+                "https://img.freepik.com/premium-photo/abramtsevo-russia-moscow-region_146605-23.jpg?w=826",
+                "https://img.freepik.com/premium-photo/3d-rendering-loft-luxury-living-room-with-marble-decor_105762-2055.jpg?w=826",
+                "https://img.freepik.com/free-photo/modern-beadroom-hotel_1150-17926.jpg?t=st=1736050260~exp=1736053860~hmac=7e0a443b85768c3fce20275b9aebd5fe1b73693d21b0fefccffacfa9c661b562&w=826",
+                "https://img.freepik.com/free-photo/luxury-bedroom-hotel_1150-10836.jpg?t=st=1736050303~exp=1736053903~hmac=d3f007611a8a4ddea4e6c48ac43564f17710ac15454e165c420a6773eac4e87c&w=826",
+                "https://img.freepik.com/free-photo/luxury-bedroom-suite-resort-high-rise-hotel-with-working-table_105762-1783.jpg?t=st=1736103367~exp=1736106967~hmac=c75e8cebcc31b590a8dbfcb6a14a9c8fed4f991b645289bbb38bbe0ef048ba1e&w=900",
+                "https://img.freepik.com/free-photo/stylish-scandinavian-kitchen-interior-chairs-table-foreground-fridge-long-wooden-counter-with-machines-utensils-shelves-interiors-design-ideas-home-coziness-concept_343059-2727.jpg?t=st=1736102211~exp=1736105811~hmac=b124b1079c9ea997483a53a3b134ab722c55c0e699b34c2ee405cce04bcf105f&w=900",
+                "https://img.freepik.com/free-photo/3d-rendering-modern-design-marble-tile-toilet-bathroom-with-shelf_105762-2074.jpg?t=st=1736102346~exp=1736105946~hmac=948ebee82990b1eef54431c3c4b986e805efe2fbe9d656e82d89d39c85024b1a&w=900"
+            ],
+            "floorPlan": "https://img.freepik.com/free-vector/house-arhitectural-sketch-blueprint_23-2148307429.jpg?t=st=1736098200~exp=1736101800~hmac=8fe280aeb279b0e8dab2320415cffa82ebe55da01d692a71395189f18df18be9&w=740",
+            "added": {
+                "month": "December",
+                "day": 1,
+                "year": 2024
+            },
+             "iframe":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19907.56093714128!2d0.0688489000000013!3d51.413249549999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8aa320af91b0b%3A0xad7f1a91e22fe6bc!2sBR7%2C%20UK!5e0!3m2!1sen!2slk!4v1736101245135!5m2!1sen!2slk"
+        },
+        {
+            "id": "prop4",
+            "type": "Flat",
+            "bedrooms": 1,
+            "price": 275000,
+            "tenure": "Leasehold",
+            "postcode": "SE10",
+            "longDescription": "Modern one bedroom apartment in a newly built development. Open plan kitchen/living area, double bedroom, modern bathroom, private balcony with city views. Benefits from concierge service and communal garden.",
+            "location": "Greenwich SE10",
+            "picture": "https://img.freepik.com/free-photo/cozy-living-room-interior-with-panoramic-window_1262-12322.jpg?t=st=1736049573~exp=1736053173~hmac=342ecea9dbddae9f41c71c907073f8bdf56dd636a41e4af328a16f01672b1cdf&w=826",
+            "images": [
+                "https://img.freepik.com/free-photo/cozy-living-room-interior-with-panoramic-window_1262-12322.jpg?t=st=1736049573~exp=1736053173~hmac=342ecea9dbddae9f41c71c907073f8bdf56dd636a41e4af328a16f01672b1cdf&w=826",
+                
+                "https://img.freepik.com/free-photo/cozy-studio-apartment-with-bedroom-living-space_1262-12323.jpg?t=st=1736049644~exp=1736053244~hmac=fbd39e1619ace9182cdf30297f37fde492fcd98cc1aa5b76f4f2a6b5e63e8fe7&w=826",
+                "https://img.freepik.com/free-photo/empty-modern-room-with-furniture_23-2149178330.jpg?t=st=1736102085~exp=1736105685~hmac=d0a471ea4a0298dc7e06a1ce0936d7f5dbf548fde331d5b26d304c622c7a6736&w=900",
+                "https://img.freepik.com/free-photo/home-interior-design-assortment_23-2148986607.jpg?t=st=1736102131~exp=1736105731~hmac=7744882b8a94c5a8210abb32fa4ceeb56bbc23157a2bab50cd2b34665be386f3&w=900",
+               
+                "https://img.freepik.com/free-photo/3d-rendering-modern-dining-room-living-room-with-luxury-decor_105762-2170.jpg?t=st=1736102468~exp=1736106068~hmac=ce5dd8c60afc9e0d4de20ed0889631a976f695de68fbef80df1fcfabb7c0640f&w=900",
+                "https://img.freepik.com/free-photo/3d-rendering-modern-black-bathroom-with-luxury-tile-decor_105762-2138.jpg?t=st=1736102532~exp=1736106132~hmac=b50a1f3d8f59983dd3ce4e7c187377e61b67d26d65af6ac52ccdf91629899e66&w=900"
+            ],
+            "floorPlan": "https://img.freepik.com/free-vector/sketch-draw-with-blueprint-house_23-2148312902.jpg?t=st=1736098220~exp=1736101820~hmac=5ffa7d3953b0ca06c90426c7c5ae7e6c3bf575ba4ee395fa64ae4972d47360c5&w=740",
+            "added": {
+                "month": "November",
+                "day": 28,
+                "year": 2024
+            },
+             "iframe":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39750.32844590936!2d0.0006105500000083452!3d51.487608849999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a815e2b18297%3A0x6f1cba02eb0abf44!2sLondon%20SE10%2C%20UK!5e0!3m2!1sen!2slk!4v1736101303671!5m2!1sen!2slk"
+        },
+        {
+            "id": "prop5",
+            "type": "House",
+            "bedrooms": 5,
+            "price": 1250000,
+            "tenure": "Freehold",
+            "postcode": "SE3",
+            "longDescription": "Exceptional five bedroom Victorian house with period features. Comprises large reception rooms, eat-in kitchen, master bedroom with en-suite, four further bedrooms, two bathrooms, cellar, and west-facing garden.",
+            "location": "Blackheath SE3",
+            "picture":  "https://img.freepik.com/premium-photo/buildings-town_1048944-19155124.jpg?w=826",
+            "images": [
+                "https://img.freepik.com/premium-photo/buildings-town_1048944-19155124.jpg?w=826",
+                "https://img.freepik.com/premium-photo/3d-rendering-loft-luxury-living-room-with-shelf-near-dining-table_105762-2048.jpg?w=826",
+                "https://img.freepik.com/free-photo/luxury-chill-bedroom-hotel_1150-10902.jpg?t=st=1736050344~exp=1736053944~hmac=29334462eba43081376322bdf5494c4b8f0b3136cbe2b623217c7696d35cfb1d&w=826",
+                "https://img.freepik.com/free-photo/bedroom-decor-with-potted-plants_23-2149428016.jpg?t=st=1736050821~exp=1736054421~hmac=ce549c348bd751f3d6ba3598807ac5cc6239a92ac6bbcb4091abf62a4aed2117&w=826",
+                "https://img.freepik.com/premium-photo/classic-interior-bedroom_67473-8.jpg?w=826",
+                "https://img.freepik.com/free-photo/3d-rendering-beautiful-luxury-bedroom-suite-hotel-with-tv-shelf_105762-2077.jpg?t=st=1736103439~exp=1736107039~hmac=e27fc17bd7e80672b8e123c4483b984f90b4c83778b29fbe110342e17268a14d&w=900",
+                
+                "https://img.freepik.com/free-photo/small-bathroom-with-modern-style-decor_23-2150836701.jpg?t=st=1736102694~exp=1736106294~hmac=96a2cccc93837fdc6c442434a8bc9606ae40dd08b00cc04012ffce69b4228523&w=740"
+            ],
+            "floorPlan": "https://img.freepik.com/free-vector/modern-project-blueprint-house_23-2148317370.jpg?t=st=1736097451~exp=1736101051~hmac=3b423ac075a411a378ffbbbf5c2136458711cae9adb2d83cc04c11e876c0ae5e&w=740",
+            "added": {
+                "month": "December",
+                "day": 5,
+                "year": 2024
+            },
+             "iframe":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19884.8545121907!2d0.0030892999999941394!3d51.465375050000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a9cd1ef16c87%3A0x59bd8f5ad54db947!2sBlackheath%2C%20London%2C%20UK!5e0!3m2!1sen!2slk!4v1736101140986!5m2!1sen!2slk"
+        },
+        {
+            "id": "prop6",
+            "type": "Flat",
+            "bedrooms": 3,
+            "price": 550000,
+            "tenure": "Leasehold",
+            "postcode": "SE19",
+            "longDescription": "Spacious three bedroom apartment in converted mansion block. Features high ceilings, large windows, separate kitchen, three double bedrooms, two bathrooms, and communal gardens.",
+            "location": "Crystal Palace SE19",
+            "picture": "https://img.freepik.com/premium-photo/3d-rendering-modern-dining-room-living-room-with-luxury-decor_105762-1370.jpg?w=826",
+            "images": [
+                "https://img.freepik.com/premium-photo/3d-rendering-modern-dining-room-living-room-with-luxury-decor_105762-1370.jpg?w=826",
+                "https://img.freepik.com/premium-photo/comfort-hotel-bedroom-luxury-style_550617-25938.jpg?w=826",
+                "https://img.freepik.com/free-photo/small-hotel-room-interior-with-double-bed-bathroom_1262-12489.jpg?t=st=1736050023~exp=1736053623~hmac=9c25553c4a3511a857696d33cfa8dc0cbb64303cecb4baba20cf1efe5da0803f&w=826",
+                
+                "https://img.freepik.com/free-photo/luxury-classic-modern-bedroom-suite-hotel_105762-1787.jpg?t=st=1736050960~exp=1736054560~hmac=fce013d76e40a910db76887c0979af3ae0ab9f5ed90232be331079f092dbd1d8&w=826",
+                "https://img.freepik.com/free-photo/kitchen-interior_1048-8217.jpg?t=st=1736101976~exp=1736105576~hmac=bc38f8b96a19a7d9a74035130d5e3e6f3dff37945c5d0ac1f29264ccfac01d89&w=900",
+                "https://img.freepik.com/free-photo/small-bathroom-with-modern-style-decor_23-2150836697.jpg?t=st=1736102660~exp=1736106260~hmac=b03940eddebda403b4287b4af4339411587cba4559bcd654912ee381fa6230ec&w=740"
+            ],
+            "floorPlan": "https://img.freepik.com/free-vector/drawing-home-blueprint_23-2148307947.jpg?t=st=1736098243~exp=1736101843~hmac=fdde3758bc7033519699c964ac49388a86bf359134eabeb08e1b47ec2ebb67be&w=740",
+            "added": {
+                "month": "November",
+                "day": 15,
+                "year": 2024
+            },
+             "iframe":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9953.150214290003!2d-0.08263794999999453!3d51.4161442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876015d4bc394bd%3A0x6f51309b2fa08ffe!2sCrystal%20Palace%2C%20London%2C%20UK!5e0!3m2!1sen!2slk!4v1736101015974!5m2!1sen!2slk"
+        },
+        {
+            "id": "prop7",
+            "type": "House",
+            "bedrooms": 2,
+            "price": 425000,
+            "tenure": "Freehold",
+            "postcode": "SE23",
+            "longDescription": "Charming two bedroom terraced house perfect for first-time buyers. Featuring modern kitchen, living room with fireplace, two double bedrooms, upstairs bathroom, and private garden.",
+            "location": "Forest Hill SE23",
+            "picture": "https://img.freepik.com/premium-photo/average-residential-house-with-green-lawn-cloudy-day-canada_769578-2432.jpg?w=826",
+            "images": [
+                "https://img.freepik.com/premium-photo/average-residential-house-with-green-lawn-cloudy-day-canada_769578-2432.jpg?w=826",
+                "https://img.freepik.com/free-photo/3d-rendering-loft-luxury-living-room-with-bookshelf_105762-2099.jpg?t=st=1736051115~exp=1736054715~hmac=f2e4fb87296da5d04536c21afafbf56159424c051dadda9cbfe2e34b6e466ecb&w=826",
+                "https://img.freepik.com/free-photo/3d-rendering-luxury-modern-bedroom-suite-hotel-with-tv-cabinet_105762-2280.jpg?t=st=1736050494~exp=1736054094~hmac=58cc29a9f55d9eb6634b565b4e3899187040009c0af5768e3bccaad6d6f9bdef&w=826",
+                "https://img.freepik.com/premium-photo/3d-rendering-orange-vintage-minimal-bedroom-suite-hotel-with-tv_105762-864.jpg?w=826",
+                "https://img.freepik.com/free-photo/mid-century-interior-design_23-2151902062.jpg?t=st=1736102582~exp=1736106182~hmac=96673543f1f44672cdd4320a6b35aef0898e7e5745582ab038442044853ae409&w=900",
+                "https://img.freepik.com/free-photo/3d-rendering-modern-kitchen-counter-with-white-biege-design_105762-2228.jpg?t=st=1736101866~exp=1736105466~hmac=790aff8f906eb8954fd3240ecaa08ecc766e531c7114ca38351bbcdaf0430e76&w=900"
+            ],
+            "floorPlan": "https://img.freepik.com/free-vector/house-plan-with-blueprint-concept_23-2148311691.jpg?t=st=1736098276~exp=1736101876~hmac=4453fb034025f70af559308b4eed723df3ba563a2cc1bba2ca08f066f4a5fbef&w=740",
+            "added": {
+                "month": "December",
+                "day": 10,
+                "year": 2024
+            },
+             "iframe":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39783.08599853501!2d-0.051797100000000006!3d51.45002469999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760225503c2b45%3A0x983d23381e5dc05e!2sLondon%20SE23%2C%20UK!5e0!3m2!1sen!2slk!4v1736100919590!5m2!1sen!2slk"
+        }
+    ]
+}

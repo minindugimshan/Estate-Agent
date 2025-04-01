@@ -1,3 +1,4 @@
+
 const { Sequelize } = require('sequelize');
 require('dotenv').config();
 
@@ -8,24 +9,25 @@ const sequelize = new Sequelize(
   {
     host: process.env.DB_HOST,
     dialect: 'mysql',
-    logging: false, // Disable SQL logging in production
     pool: {
       max: 5,
       min: 0,
       acquire: 30000,
       idle: 10000
-    }
+    },
+    logging: false
   }
 );
 
-const testConnection = async () => {
+// Test the connection
+async function testConnection() {
   try {
     await sequelize.authenticate();
-    console.log('Connection to database has been established successfully.');
+    console.log('Database connection has been established successfully.');
   } catch (error) {
     console.error('Unable to connect to the database:', error);
   }
-};
+}
 
 testConnection();
 
