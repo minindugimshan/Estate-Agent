@@ -1,12 +1,36 @@
-const { DataTypes } = require('sequelize');
-const sequelize = require('../config/db');
+'use strict';
+const { Model } = require('sequelize');
 
-const FloorPlan = sequelize.define('FloorPlan', {
-  id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
-  property_id: { type: DataTypes.STRING(36), allowNull: false },
-  floor_plan_url: { type: DataTypes.TEXT, allowNull: false }
-}, {
-  tableName: 'property_floor_plans'
-});
+module.exports = (sequelize, DataTypes) => {
+  class FloorPlan extends Model {
+    static associate(models) {
+      FloorPlan.belongsTo(models.Property, {
+        foreignKey: 'property_id',
+        as: 'property'
+      });
+    }
+  }
 
-module.exports = FloorPlan;
+  FloorPlan.init({
+    id: {
+      type: DataTypes.INTEGER,
+      primaryKey: true,
+      autoIncrement: true
+    },
+    property_id: {
+      type: DataTypes.STRING(36),
+      allowNull: false
+    },
+    floor_plan_url: {
+      type: DataTypes.TEXT,
+      allowNull: false
+    }
+  }, {
+    sequelize,
+    modelName: 'FloorPlan',
+    tableName: 'property_floor_plans',
+    timestamps: false
+  });
+
+  return FloorPlan;
+};
