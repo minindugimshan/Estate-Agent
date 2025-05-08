@@ -1,4 +1,5 @@
-const Favorite = require('../models/Favorite');
+import Favorite
+// const Favorite = require('../models/Favorite');
 const Property = require('../models/Property');
 
 // Get user's favorites
