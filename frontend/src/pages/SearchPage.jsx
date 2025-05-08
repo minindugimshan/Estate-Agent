@@ -125,7 +125,7 @@ import Hero from '../components/Hero/Hero';
 import SearchForm from '../components/search/SearchForm';
 import PropertyCard from '../components/property/PropertyCard';
 import FavoritesList from '../components/favorites/FavoritesList';
-import api from '../api';
+import api from '../../services/api'; // Adjust the import based on your project structure
 import { useSnackbar } from 'notistack';
 
 function SearchPage() {

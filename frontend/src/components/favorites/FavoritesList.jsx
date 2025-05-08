@@ -129,7 +129,7 @@ import {
 import DeleteIcon from '@mui/icons-material/Delete';
 import { Link } from 'react-router-dom';
 import { Droppable, Draggable } from 'react-beautiful-dnd';
-import api from '../../api';
+import api from '../../../services/api.js';
 
 function FavoritesList() {
   const [favorites, setFavorites] = useState([]);

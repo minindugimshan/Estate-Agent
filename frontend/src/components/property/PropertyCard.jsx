@@ -78,7 +78,7 @@ import { Link } from 'react-router-dom';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import PropTypes from 'prop-types';
-import api from '../../api';
+import api from '../../../services/api.js';
 import "./property.css";
 
 function PropertyCard({ property }) {
